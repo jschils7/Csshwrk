@@ -1,0 +1,121 @@
+/* had to change the text color so that the list items would have a white text. Had to add no text decoration so that the list items would not be underlined*/
+* {
+    margin:0;
+    padding:0;  
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+ 
+  
+  /* Element Selectors */
+  body {
+    position: relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+  }
+  
+  h1,
+  h2 {
+    margin: 20px;
+  }
+  
+  main {
+    padding: 60px 0;
+  }
+  /* had to add float property and inline prooerty*/
+  li{
+    display: inline;
+    float: right;
+    padding: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  /* added hover element. However, I cannot test this since all my tech is touchscreen*/
+  a :hover{
+    text-decoration: none;
+    
+  }
+  
+  header,
+  footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color:black;
+  }
+  
+  header {
+    position: fixed;
+    border-bottom: 10px solid blue;
+  }
+  
+  footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid blue;
+    color: #FDF8F5;    
+  }
+  
+  figure {
+    margin-bottom: 40px;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid blue;
+    background-color: black;
+  }
+  
+  form {
+    /* I should add my github in future. However, how do I prevent a lot of companies from emailing me? I heard this from several sources */
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+    
+  input, 
+  textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #4F4846;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 60px;
+  }
+    
+  button {
+    height: 40px;
+    width: 120px;
+    background-color: darkblue;
+    color: #FDF8F5;
+  }
+   
+  /* Class Selectors */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
